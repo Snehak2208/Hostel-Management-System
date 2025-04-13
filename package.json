@@ -1,0 +1,17 @@
+{
+  "name": "hostel-management",
+  "version": "1.0.0",
+  "description": "Hostel Management System - fullstack app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server --prefix backend\" \"npm start --prefix frontendd\"",
+    "server": "npm start --prefix backend",
+    "client": "npm start --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
