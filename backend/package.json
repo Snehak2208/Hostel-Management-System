@@ -20,7 +20,7 @@
     "denque": "^2.1.0",
     "depd": "^2.0.0",
     "destroy": "^1.2.0",
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.6.0",
     "dottie": "^2.0.6",
     "dunder-proto": "^1.0.1",
     "ee-first": "^1.1.1",
@@ -101,9 +101,10 @@
     "vary": "^1.1.2",
     "wkx": "^0.5.0"
   },
-  "scripts": {"migrate:generate": "sequelize migration:generate",
-  "migrate:run": "sequelize db:migrate",
-  "migrate:undo": "sequelize db:migrate:undo",
+  "scripts": {
+    "migrate:generate": "sequelize migration:generate",
+    "migrate:run": "sequelize db:migrate",
+    "migrate:undo": "sequelize db:migrate:undo",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
